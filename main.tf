@@ -15,7 +15,7 @@ provider "mongodbatlas" {
 }
 
 resource "mongodbatlas_project" "my_project" {
-  name   = "DevOpsDemoProject"
+  name   = "DevOpsDemo1Project"
   org_id = var.org_id
 }
 
